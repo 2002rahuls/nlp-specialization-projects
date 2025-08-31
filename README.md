@@ -24,6 +24,3 @@ So far, I have completed **Autocomplete** and **Autocorrect**, with more project
 - N-gram language models and add-k smoothing  
 - Autocomplete based on conditional probabilities  
 - Autocorrect using edit distance and frequency models  
-
----
-
