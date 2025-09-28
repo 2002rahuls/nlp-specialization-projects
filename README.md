@@ -30,6 +30,13 @@ So far, I have completed **Autocomplete**, **Autocorrect**, and **RNN-based Text
   - Temperature-based sampling for creative text generation
 - Includes a notebook with full **training, evaluation, and generation pipeline**
 
+### 4. [NER with LSTM](./ner_lstm/)
+
+- Implements **Named Entity Recognition** using an LSTM neural network
+- Trains on sample sentences with entity tags (PER, ORG, LOC, TIM)
+- Demonstrates sequence labeling, masking, and custom loss/accuracy for padded tokens
+- Includes notebook and script for training and prediction
+
 ---
 
 ## 📚 Concepts Covered So Far
@@ -41,3 +48,6 @@ So far, I have completed **Autocomplete**, **Autocorrect**, and **RNN-based Text
 - Character-level RNNs and GRU networks for generative modeling
 - Loss functions, optimizers, and log-perplexity evaluation
 - Temperature-based sampling for controlled randomness in text generation
+- Sequence labeling for NER with LSTM
+- Masking and handling padded tokens in sequence models
+- Custom loss and accuracy functions for sequence tasks
