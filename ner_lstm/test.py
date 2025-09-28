@@ -14,6 +14,6 @@ model.compile(optimizer='adam', loss=masked_loss, metrics=[masked_accuracy])
 model.fit(sentence_vectorizer(sentences), y, epochs=200, batch_size=2)
 
 # Test prediction
-sentence = "Apple is buying INDIA startup in London"
+sentence = "Apple is buying startup in London"
 preds = predict(sentence, model, sentence_vectorizer, tag_map)
 print(preds)
