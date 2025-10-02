@@ -37,6 +37,13 @@ So far, I have completed **Autocomplete**, **Autocorrect**, and **RNN-based Text
 - Demonstrates sequence labeling, masking, and custom loss/accuracy for padded tokens
 - Includes notebook and script for training and prediction
 
+### 5. [Siamese Network](./siamese_network/)
+
+- Implements a **Siamese neural network** for sentence similarity
+- Uses twin subnetworks with shared weights to compare input pairs
+- Demonstrates contrastive loss and distance-based similarity scoring
+- Includes a notebook for training and evaluating on sample sentence pairs
+
 ---
 
 ## 📚 Concepts Covered So Far
@@ -51,3 +58,4 @@ So far, I have completed **Autocomplete**, **Autocorrect**, and **RNN-based Text
 - Sequence labeling for NER with LSTM
 - Masking and handling padded tokens in sequence models
 - Custom loss and accuracy functions for sequence tasks
+- Sentence similarity modeling using Siamese networks and contrastive loss
