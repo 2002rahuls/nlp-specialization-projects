@@ -44,6 +44,14 @@ So far, I have completed **Autocomplete**, **Autocorrect**, and **RNN-based Text
 - Demonstrates contrastive loss and distance-based similarity scoring
 - Includes a notebook for training and evaluating on sample sentence pairs
 
+### 6. [Seq2Seq Translation](./seq2seq_translation/)
+
+- Implements a **sequence-to-sequence (Seq2Seq) neural network** for English-to-Portuguese translation
+- Uses LSTM-based encoder-decoder architecture with custom tokenization
+- Supports temperature-based sampling for diverse translations
+- Includes ROUGE-1 and overlap-based evaluation metrics
+- Jupyter notebook demonstrates data prep, model training, translation, and evaluation
+
 ---
 
 ## 📚 Concepts Covered So Far
@@ -59,3 +67,5 @@ So far, I have completed **Autocomplete**, **Autocorrect**, and **RNN-based Text
 - Masking and handling padded tokens in sequence models
 - Custom loss and accuracy functions for sequence tasks
 - Sentence similarity modeling using Siamese networks and contrastive loss
+- Sequence-to-sequence translation with encoder-decoder LSTM architecture
+- ROUGE and overlap-based evaluation for translation quality
